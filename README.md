@@ -1,2 +1,2 @@
 # mcaddon-template
-Template for MCBE add-on development
+Template for MCBE behavior-pack development
