@@ -1,0 +1,26 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "アドオン名",
+		"description": "アドオン説明",
+		"uuid": "63fcce19-4097-44af-b35c-2c03493c2a2f",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 50]
+	},
+	"modules": [
+		{
+			"description": "Script API",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "785a8d7c-31db-4617-9c9f-af36730b955f",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0"
+		}
+	]
+}
